@@ -108,7 +108,7 @@ void DLinkedList<E>::remove(DNode<E>* v) {	// remove node v
 	w->prev = u;
 	delete v;
 	n--;
-}
+} 
 
 template <typename E>
 void DLinkedList<E>::removeFront()		// remove from font
